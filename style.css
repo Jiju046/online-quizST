@@ -1,0 +1,74 @@
+.heading{
+  text-align: center  ;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #198754;
+}
+
+
+.accordian{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid blue;
+}
+.form-check-input{
+    float: right;
+    width: 40px;
+    height: 30px;
+}
+
+.check-box{
+    float: right;
+}
+li{
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width:777px){
+    .nav-link {
+      padding:18px 0;
+      min-width:120px;
+    }
+    .navbar {
+      padding: 0
+    }
+  }
+
+  .submit{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:  #198754;
+    color: azure;
+  }
+
+  .submit:hover{
+    background-color: #F24C3D;
+    color: aliceblue;
+  }
+
+  .contact-us{
+    color: #198754;
+    background-color: aliceblue;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .contact-us:hover{
+    background-color: #E1AEFF;
+    color: black;
+  }
+  footer{
+    height: 150px;
+    color: white;
+     display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: end;
+    background-color: #198754;
+    padding-bottom: 20px;
+    margin-top: 50px;
+
+  }
+ 
